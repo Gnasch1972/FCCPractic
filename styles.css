@@ -1,0 +1,146 @@
+h2 {
+	color:#0066cc;
+}
+
+a {
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+caption{
+	text-align: left;
+	padding:7px 0px 7px 0px;
+	border-top:1.5px solid black;
+}
+
+tr{
+	text-align: left;
+}
+
+.example{
+	color: #0099cc;
+	background-color: LightBlue;
+}
+
+.top-border{
+	border:1.5px solid black;
+	margin-top:50px;
+}
+
+.bottom-border{
+	border:0.5px solid black;
+	margin-bottom:50px;
+}
+
+.exercises{
+	color: #0099cc;
+	font-weight: normal;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.captionColor {
+	color: #0066cc;
+}
+
+.formulaCenter{
+	text-align: center;
+}
+
+.markColor {
+	background-color: lightblue;
+}
+
+.examFourTablePadding {
+	padding-right: 150px;
+}
+
+#columnHeader {
+	border-top: 1px solid black;
+}
+
+#exerOne {
+	height:120px;
+	width:1000px
+}
+
+#figExerOne {
+	float:right;
+	margin: 10px 0px 15px 15px;
+	height:100px;
+ 	width:100px;
+}
+
+#tableOnePadding {
+	padding-right:50px;
+}
+
+#densityWidth {
+	width: 450px;
+}
+
+#tableTwoPaddingOne{
+	padding-right: 150px;
+}
+
+#tableTwoPaddingTwo {
+	padding-right: 250px;
+}
+
+#celciusWidth {
+	width: 350px;
+}
+
+#tableThreePaddingOne {
+	padding-right: 50px;
+}
+
+#tableThreePaddingTwo {
+	padding-right: 100px;
+}
+
+#tableThreePaddingThree {
+	padding-right: 100px;
+}
+
+#zeroWidth {
+	width: 500px;
+}
+
+#volumnWidth {
+	width: 750px;
+}
+
+#massWidth {
+	width:750px;
+}
+
+#percentErrorWidth {
+	width: 1000px;
+}
+
+#examFivePadding {
+	padding-right: 150px;
+}
+
+#examSixWidth {
+	style="width: 1000px;
+}
+
+#graphWidth {
+	width: 500px;
+}
+
+#exer15TableWidth {
+	width: 350px;
+}
