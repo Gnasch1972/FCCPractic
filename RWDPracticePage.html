@@ -61,11 +61,18 @@
             </ul>
 
         <hr class="top-border">
-            <div id="exerOne">
-            <img src="Images/exer1_1.jpg" id="figExerOne">
+          <div id="exerOne">
+            <img src="images/exer1_1.jpg" id="figExerOne">
             <h4 class="exercises"> <b>Exercise 1.1</b> - Mixtures and Pure Substances</h4>
             <p>The photos below show two different mixtures. Which is a homogeneous mixture and which is a heterogeneous mixture?</p>
-        </div>
+            <form action="action_page.php">
+              Homogeneous:
+              <input type="text" name="homogeneous"><br>
+              Heterogeneous:
+              <input type="text" name="heterogeneous"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
         <hr class="bottom-border">
 
     <h2 id="S2"> 1.2 - Elements and Atoms</h2>
@@ -80,7 +87,26 @@
         <p>Using the periodic table find:</p>
         <ul style="list-style-type: none;">
             <li><b>(a).</b> the names of the elements having the symbols Na, Cl and Cr.</li>
+            <form action="action_page.php">
+              Na:
+              <input type="text" name="Na"><br>
+              Cl:
+              <input type="text" name="Cl"><br>
+              Cr:
+              <input type="text" name="Cr"><br>
+              <input type="submit" value="Submit">
+            </form>
+            <br>
             <li><b>(b).</b> the symbols for the elements zinc, nickle, potassium.</li>
+            <form action="action_page.php">
+              Zinc:
+              <input type="text" name="zinc"><br>
+              Nickle:
+              <input type="text" name="nickle"><br>
+              potassium:
+              <input type="text" name="potassium"><br>
+              <input type="submit" name="Submit">
+            </form>
         </ul>
         <hr class="bottom-border">
 
@@ -150,6 +176,17 @@
         <h4 class="exercises"><b>Exercise 1.3</b> - Physical Properties</h4>
             <p>Identify as many physical properties in Table 1.1 as you can for the following common substances:</p>
             <p><b>(a).</b> iron, <b>(b).</b> water, <b>(c).</b> table salt (chemical name is sodium chloride), <b>(d).</b> oxygen.</p>
+            <form action="action_page.php">
+              a).
+              <input type="text" name="iron"><br>
+              b).
+              <input type="text" name="water"><br>
+              c).
+              <input type="text" name="table_salt"><br>
+              d).
+              <input type="text" name="oxygen"><br><br>
+              <input type="submit" value="Submit">
+            </form>
         <hr class="bottom-border">
 
         <h3>Density</h3>
@@ -172,6 +209,11 @@
         <hr class="top-border">
         <h4 class="exercises"><b>Exercise 1.4</b> - Density</h4>
             <p>The density of air is 1.18x10-3 g/cm<sup>3</sup> (= 0.00118 g/cm<sup>3</sup>).  What volume of air, in cubic centimeters, has a mass of 15.5 g?</p>
+            <form action="action_page.php">
+              V:
+              <input type="number" name="Volume">cm<sup>3</sup><br><br>
+              <input type="submit" value="Submit">
+            </form>
         <hr class="bottom-border">
 
         <h3>Temperature Dependence of Physical Properties</h3>
@@ -180,6 +222,11 @@
         <hr class="top-border">
         <h4 class="exercises"><b>Exercise 1.5</b> - Density and Temperature</h4>
             <p>The density of mercury at 0 degree C is 13.595 g/cm<sup>3</sup>, at 10 <sup>o</sup>C it is 13.570 g/cm<sup>3</sup>, and at 20 <sup>o</sup>C it is 13.546 g/cm<sup>3</sup>.  Estimate the density of mercury at 30 <sup>o</sup>C.</p>
+            <form action="action_page.php">
+              &rho;:
+              <input type="number" name="density">g/cm<sup>3</sup><br><br>
+              <input type="submit" value="Submit">
+            </form>
         <hr class="bottom-border">
 
         <h3>Extensive and Intensive Properties</h3>
@@ -200,6 +247,13 @@
         <hr class="top-border">
         <h4 class="exercises"><b>Exercise 1.6</b> - Chemical Reactions and Physical Changes</h4>
             <p>When camping in the mountains, you boil a pot of water on a campfire.  What physical and chemical changes take place in the process?</p>
+            <form action="action_page.php">
+              Phyiscal Changes:
+              <input type="text" name="Phyiscal"><br>
+              Chemical Changes:
+              <input type="text" name="Chemical"><br><br>
+              <input type="submit" value="Submit">
+            </form>
         <hr class="bottom-border">
 
     <h2 id="S6">1.6 - Units of Measurement</h2>
@@ -333,6 +387,11 @@
             <hr class="top-border">
             <h4 class="exercises"><b>Exercise 1.7</b> - Temperature Scales</h4>
                 <p>Liquid nitrogen boils at 77 K. What is the temperature in Celsius degrees?</p>
+                <form action="action_page.php">
+                  T:
+                  <input type="number" name="tempC"><sup>o</sup>C<br><br>
+                  <input type="submit" value="Submit">
+                </form>
             <hr class="bottom-border">
 
         <h3>Length</h3>
@@ -349,11 +408,34 @@
             <hr class="top-border">
             <h4 class="exercises"><b>Exercise 1.8</b> - Interconverting Units of Length</h4>
                 <p>The pages of a typical textbook are 25.3 cm long and 21.6 cm wide.  What is each dimension in meters? In millimeters? What is area of a page in square centimeters? In square meters?</p>
+                <form action="action_page.php">
+                  L(m):
+                  <input type="number" name="lengthMeter"> m
+                  W(m)
+                  <input type="number" name="widthMeter"> m
+                  <input type="submit" value="Submit"><br><br>
+                  L(mm):
+                  <input type="number" name="lengthMM"> mm
+                  W(mm)
+                  <input type="number" name="widthMM"> mm
+                  <input type="submit" value="Submit"><br><br>
+                  Area(cm<sup>2</sup>):
+                  <input  type="number" name="AreaCM"> cm<sup>2</sup>
+                  <input type="submit" value="Submit"><br><br>
+                  Area(cm<sup>2</sup>):
+                  <input  type="number" name="AreaMM"> mm<sup>2</sup>
+                  <input type="submit" value="Submit"><br>
+                </form>
             <hr class="bottom-border">
 
             <hr class="top-border">
             <h4 class="exercises"><b>Exercise 1.9</b> - Using Units of Length and Density</h4>
                 <p>A platinum sheet is 2.50 cm square and has a mass of 1.656 g.  The density of platinum is 21.45 g/cm<sup>3</sup>.  What is the thickness of the platinum sheet in millimeters?</p>
+                <form action="action_page.php">
+                  thickness (mm):
+                  <input type="number" name="thickness"> mm
+                  <input type="submit" value="Submit">
+                </form>
             <hr class="bottom-border">
 
         <h3>Volume</h3>
