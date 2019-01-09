@@ -458,7 +458,21 @@
             <h4 class="exercises"><b>Exercise 1.10</b> - Volume</h4>
                 <ul>
                     <li><b>(a).</b> A standard wine bottle has a volume of 750 mL.  How many liters does this represent?  How many deciliters?</li>
+                    <form action="action_page.php">
+                      V(L):
+                      <input type="number" name="liter"> L
+                      V(dL):
+                      <input type="number" name="deciliters"> dL
+                    </form>
+
+                      </dl>
                     <li><b>(b).</b> One U.S. gallon is equivalent to 3.7865 L.  How many liters are in a 2 quart carton of milk? How many cubic decimeters?</li>
+                    <form action="action_page.php">
+                      V(L):
+                      <input type="number" name="liters"> L
+                      V(dm<sup>3</sup>):
+                      <input type="number" name="cubucdecimeters"> dm<sup>3</sup>
+                    </form>
                 </ul>
             <hr class="bottom-border">
 
@@ -476,7 +490,17 @@
             <h4 class="exercises"><b>Exercise 1.11</b> - Mass</h4>
                 <ul>
                     <li><b>(a).</b>  A new U.S. quarter has a mass of 5.59 g.  Express this mass in kilograms and milligrams.</li>
+                    <form action="action_page.php">
+                      m(kg):
+                      <input type="number" name="kilogram"> kg
+                      m(mg):
+                      <input type="number" name="milligrams"> mg
+                    </form>
                     <li><b>(b).</b>  An environmental study of a river found a pesticide present to the extent of  0.02 microgram per liter of water.  Express this amount in grams per liter.</li>
+                    <form action="action_page.php">
+                      g/L:
+                      <input type="number" name="gramsperliter"> g/L
+                    </form>
                 </ul>
             <hr class="bottom-border">
 
@@ -560,6 +584,20 @@
                 <p>Student B: 273.13 K, 273.17 K, 273.15 K, 273.19K</p>
 
                 <p>Calculate the average value and, knowing that the liquid was water, calculate the percent error for each student.  Which student has the more precise values? Which has the smaller error?</p>
+                <form action="action_page.php">
+                  Average Value (A):
+                  <input type="number" name="avevalueA"> <sup>o</sup>C<br>
+                  Percent Error (A):
+                  <input type="number" name="pererrA"> % <br>
+                  Average Value (B):
+                  <input type="number" name="avevalueB"> K<br>
+                  Percent Error (B):
+                  <input type="number" name="pererrB"> %<br>
+                  Percise Values:
+                  <input  type="text" name="percise"><br>
+                  Smallest Error:
+                  <input type="text" name="smallerr">
+                </form>
             <hr class="bottom-border">
 
     <h2 id="S8">1.8 - Mathematics of Chemistry</h4>
@@ -659,8 +697,26 @@
             <h4 class="exercises"><b>Exercise 1.13</b> - Using Significant Figures</h4>
                 <ul style="list-style-typle: none;">
                     <li><b>(a).</b> How many significant figures are indicated by 2.33 x 10<sup>7</sup>, by 50.5 and by 200?</li>
+                    <form action="action_page.php">
+                      2.33:
+                      <input type="number" name="first">
+                      50.5:
+                      <input type="number" name="second">
+                      200:
+                      <input type="number" name="third">
+                    </form>
                     <li><b>(b).</b> What are the sum and product of 10.26 and 0.063?</li>
+                    <form action="action_page.php">
+                      Sum:
+                      <input type="number" name="sum">
+                      Product:
+                      <input type="number" name="product">
+                    </form>
                     <li><b>(c).</b> What is the result of the following calculation?</li>
+                    <form action="action_page.php">
+                      x:
+                      <input type="number" name="xvalue">
+                    </form>
                 </ul>
             <div style="width: 500px;">
                 <p class="formulaCenter">x = (110.0 - 64) / [(0.056)(0.00216)]</p>
@@ -692,8 +748,22 @@
                 <h4 class="exercises"><b>Exercise 1.14</b> - Using Dimensional Analysis</h4>
                 <ul>
                     <li><b>(a).</b> The annual snowfall at Lake Otsego is 198 cm each year.  What is this depth in meters? In feet? (1 ft = 30.48 cm)?</li>
+                    <form action="action_page.php">
+                      Depth(m):
+                      <input type="number" name="meters"> m
+                      Depth (ft):
+                      <input type="number" name="ft"> ft
+                    </form>
                     <li><b>(b).</b> The area of Lake Otsego is 2.33 x 10<sup>7</sup> m<sup>2</sup>. What is this area in square kilometers?</li>
+                    <form action="action_page.php">
+                      Area(km<sup>2</sup>):
+                      <input type="number" name="kilometersquare"> km<sup>2</sup>
+                    </form>
                     <li><b>(c).</b> The density of gold is 19320 kg/m<sup>3</sup>. What is this density in g/cm<sup>3</sup>?</li>
+                    <form action="action_page.php">
+                      &rho;(g/cm<sup>3</sup>):
+                      <input type="number" name="rho"> g/cm<sup>3</sup>
+                    </form>
                     <li><b>(d).</b> Show that 9.0 x 10<sup>3</sup> pc is 2.8 x 10<sup>17</sup> km</li>
                 </ul>
                 <hr class="bottom-border">
@@ -734,6 +804,12 @@
             </div>
 
             <p> Plot these data with the number of beans on the horizontal or x-axis, and the mass of beans on the vertical or y-axis.  What is the slope of the line? Use your equation of a straight line to calculate the mass of exactly 50 jelly beans.</p>
+            <form action="action_page.php">
+              Slope:
+              <input type="number" name="slope"> Beans/gram
+              mass(g):
+              <input type="number" name="massg"> g
+            </form>
             <hr class="bottom-border">
 
         <h3> Problem Solving & Chemical Arithmetic</h3>
@@ -764,7 +840,13 @@
 
             <hr class="top-border">
             <h4 class="exercises"><b>Exercise 1.16</b> - Problem Solving</h4>
-                <p> A particular paint has a density of 0.914 g/cm<sup>3</sup>. You need to cover a wall that is 7.6 m long and 2.74 m high with paint layer 0.13 mm thick.  What volume of paint (in   liters) is required? What is the mass (in grams) of the paint layer?<p>
+                <p> A particular paint has a density of 0.914 g/cm<sup>3</sup>. You need to cover a wall that is 7.6 m long and 2.74 m high with paint layer 0.13 mm thick.  What volume of paint (in liters) is required? What is the mass (in grams) of the paint layer?<p>
+                  <form action="action_page.php">
+                    V(L):
+                    <input type="number" name="volume"> L
+                    m(g):
+                    <input type="number" name="mass"> g
+                  </form>
             <hr class="bottom-border">
 
 <p>To purchase the textbook <i>Chemistry & Chemical Reactivity 6th Edition</i> go to</p>
