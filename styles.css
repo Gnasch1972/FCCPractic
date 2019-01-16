@@ -22,9 +22,13 @@ tr{
 	text-align: left;
 }
 
-.example{
+.example-text{
 	color: #0099cc;
 	background-color: LightBlue;
+}
+.example-border{
+	border-top:1px solid;
+	border-left:1px solid;
 }
 
 .top-border{
