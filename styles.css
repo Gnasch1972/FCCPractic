@@ -23,6 +23,7 @@ tr{
 }
 
 .example-text{
+	margin: 1px;
 	color: #0099cc;
 	background-color: LightBlue;
 }
