@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 h2 {
 	color:#0066cc;
 }
@@ -22,19 +26,28 @@ tr{
 	text-align: left;
 }
 
-.toc {
+.header{
 	background-color: lightblue;
-	list-style-type: none;
-	text-align: left;
-	margin: 0;
-	padding: 0;
+	padding: 20px;
+	text-align: center;
 }
 
-.toc li{
-	display: inline-block;
-	font-size: 15px;
-	padding: 20px;
+.topnav{
+	overflow: hidden;
+	background: #333;
 }
+
+.topnav a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+
 
 .example-text{
 	margin: 0px;
