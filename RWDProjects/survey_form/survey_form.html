@@ -10,15 +10,69 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1 id="title">Bend Sinister Inc Survey</h1>
-  <p id="description" style="text-align:center">Join the mailing list and leave your opinion</p>
+  <h1 id="title">Bend Sinister Inc</h1>
+  <h2 id="title"> Newsletter and Site survey<h2>
+  <p id="description" style="text-align:center">Get the weekly newsletter and tell us about you.</p>
   <div id="form-outer">
     <form id="survey-form" action="index.html" method="get">
-      <label id="name-label">Name:</lable> <input id="name" type="text" name="name" placeholder="Enter your name" required><br>
-      <label id="email-label">E-mail:</lable><input id="email" type="email" name="email" placeholder="Enter your e-mail" required><br>
-      <label id="number-label">Age:</lable><input id="number" type="number" name="age" min="1" max="125" placeholder="Age">
-
-    </form>
+      <div class="labels">
+      <label id="name-label">Name:</lable>
+      </div>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required><br>
+        <div class="labels"
+      <label id="email-label">E-mail:</lable>
+      </div>
+      <input id="email" type="email" name="email" placeholder="Enter your e-mail" required><br>
+      <div class="labels"
+      <label id="number-label">Age:</lable>
+      </div>
+        <input id="number" type="number" name="age" min="1" max="125" placeholder="Age">
+        <div id ='radio'>
+        <label for="highy_likely">
+          <input type="radio" name="buy" value="Highly"> Highly Likely
+        </label><br>
+        <label for="likely">
+          <input type="radio" name="buy" value="likely"> Likely
+        </label><br>
+        <label for="maybe">
+          <input type="radio" name="buy" value="maybe">Maybe
+        </label><br>
+        <label for="never">
+          <input type="radio" name="buy" value="never">Never
+        </label><br>
+        <label for="DontKnow">
+          <input type="radio" name="buy" value="dont">Don't Know
+        </label><br>
+        </div>
+        <div id="dropdown">
+          <label for="products">What is product interest:</label>
+          <select>
+            <option value="test">Test Equipment</option>
+            <option value="software">Software</option>
+            <option value="tools">tools</option>
+            <option value="probes">Probes/Leads</option>
+            <option value="connectors">Connectors</option>
+          </select>
+        </div>
+        <div id="checkbox">
+          <label for="postition">What is your current position:</label><br>
+          <input type="checkbox" name="pos" value="EE">Electrical Engineer</input><br>
+          <input type="checkbox" name="pos" value="ET">Electrical Technician</input><br>
+          <input type="checkbox" name="pos" value="drafter">Drafter</input><br>
+          <input type="checkbox" name="pos" value="ME">Mechanical Engineer</input><br>
+          <input type="checkbox" name="pos" value="manager">Manager</input><br>
+          <input type="checkbox" name="pos" value="super">Supervisor</input><br>
+          <input type="checkbox" name="pos" value="MO">Machine Operator</input><br>
+          <input type="checkbox" name="pos" value="hobby">Hobbiest</input><br>
+          <input type="checkbox" name="pos" value="Student">Student</input><br>
+          <input type="checkbox" name="pos" value="teacher">Professor</input><br>
+        </div>
+        <div id="textarea">
+          <label for="textarea">Please add any comments here></label><br>
+          <textarea id="comments"></textarea>
+        </div>
+        <button id="submit" type="submit">submit</button>
+      </form>
   <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
 </div>
 </body>

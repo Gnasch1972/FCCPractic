@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Indie+Flower');
+
 body {
   background-color: red;
 }
 
+
 #title{
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+
 }
 
 .labels{
   display: inline-block;
+  text-align: right;
   padding: 5px;
 }
 
 #form-outer {
   background-color: rgb(250,250,250);
+  font-family: 'Indie Flower', cursive;
   margin: 0 auto;
   border-radius: 4px;
   width: 75%;
