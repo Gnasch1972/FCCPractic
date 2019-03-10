@@ -10,69 +10,82 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1 id="title">Bend Sinister Inc</h1>
-  <h2 id="title"> Newsletter and Site survey<h2>
-  <p id="description" style="text-align:center">Get the weekly newsletter and tell us about you.</p>
-  <div id="form-outer">
-    <form id="survey-form" action="index.html" method="get">
-      <div class="labels">
-      <label id="name-label">Name:</lable>
+  <div id="title_banner">
+    <h1 id="title">Bend Sinsiter Inc - Feedback and Sign-Up</h1>
+    <p id="description">Please sign-up for our newletter and leave us some feedback</p>
+  </div>
+
+  <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+    <div id="personal-info">
+      <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+
+        <br>
+
+      <label for="email" id="email-label">E-Mail:</label>
+        <input type="email" id="email" placeholder="name@domain" required>
+
+        <br>
+
+      <label for="age" id="number-label">Age:</label>
+        <input type="number" id="number" min="13" max="100" placeholder="Age">
+    </div>
+
+    <hr>
+
+    <div id="career-checkbox">
+      <label for="career">What is your current role:<br></label>
+        <input type="checkbox" name="role" value="EE">Electrical Engineer<br>
+        <input type="checkbox" name="role" value="EET">Electrical Engineer Technician<br>
+        <input type="checkbox" name="role" value="ME">Mechanical Engineer<br>
+        <input type="checkbox" name="role" value="D">Drafter<br>
+        <input type="checkbox" name="role" value="MO">Machine Operator<br>
+        <input type="checkbox" name="role" value="M">Manager<br>
+        <input type="checkbox" name="role" value="S">Supervisor<br>
+        <input type="checkbox" name="role" value="L">Logistics<br>
+        <input type="checkbox" name="role" value="E">Educator<br>
+        <input type="checkbox" name="role" value="ST">Student<br>
       </div>
-        <input id="name" type="text" name="name" placeholder="Enter your name" required><br>
-        <div class="labels"
-      <label id="email-label">E-mail:</lable>
+
+      <hr>
+
+      <div id="buy-radio">
+        <label for="likely">How likely are you to buy from us in the next 6 months</label><br>
+        <input type="radio" name="buy" value="1">Highly Likely<br>
+        <input type="radio" name="buy" value="2">Likely<br>
+        <input type="radio" name="buy" value="3">Maybe<br>
+        <input type="radio" name="buy" value="4">Never<br>
+        <input type="radio" name="buy" value="5">Dont' Know<br>
       </div>
-      <input id="email" type="email" name="email" placeholder="Enter your e-mail" required><br>
-      <div class="labels"
-      <label id="number-label">Age:</lable>
+
+      <div id="products-dropdown">
+        <label for="products">What products are you interested in?</label>
+        <select id="dropdown">
+          <option value="Test">Test Equipment</option>
+          <option value="Soft">Software</option>
+          <option value="Tools">Tools</option>
+          <option value="Probes">Probes</option>
+          <option value="leads">Leads</option>
+          <option value="connect">Connectors</option>
+          <option value="proto">Proto Boards</option>
+          <option value="browsing">Just Browsing</option>
+        </select>
       </div>
-        <input id="number" type="number" name="age" min="1" max="125" placeholder="Age">
-        <div id ='radio'>
-        <label for="highy_likely">
-          <input type="radio" name="buy" value="Highly"> Highly Likely
-        </label><br>
-        <label for="likely">
-          <input type="radio" name="buy" value="likely"> Likely
-        </label><br>
-        <label for="maybe">
-          <input type="radio" name="buy" value="maybe">Maybe
-        </label><br>
-        <label for="never">
-          <input type="radio" name="buy" value="never">Never
-        </label><br>
-        <label for="DontKnow">
-          <input type="radio" name="buy" value="dont">Don't Know
-        </label><br>
-        </div>
-        <div id="dropdown">
-          <label for="products">What is product interest:</label>
-          <select>
-            <option value="test">Test Equipment</option>
-            <option value="software">Software</option>
-            <option value="tools">tools</option>
-            <option value="probes">Probes/Leads</option>
-            <option value="connectors">Connectors</option>
-          </select>
-        </div>
-        <div id="checkbox">
-          <label for="postition">What is your current position:</label><br>
-          <input type="checkbox" name="pos" value="EE">Electrical Engineer</input><br>
-          <input type="checkbox" name="pos" value="ET">Electrical Technician</input><br>
-          <input type="checkbox" name="pos" value="drafter">Drafter</input><br>
-          <input type="checkbox" name="pos" value="ME">Mechanical Engineer</input><br>
-          <input type="checkbox" name="pos" value="manager">Manager</input><br>
-          <input type="checkbox" name="pos" value="super">Supervisor</input><br>
-          <input type="checkbox" name="pos" value="MO">Machine Operator</input><br>
-          <input type="checkbox" name="pos" value="hobby">Hobbiest</input><br>
-          <input type="checkbox" name="pos" value="Student">Student</input><br>
-          <input type="checkbox" name="pos" value="teacher">Professor</input><br>
-        </div>
-        <div id="textarea">
-          <label for="textarea">Please add any comments here></label><br>
-          <textarea id="comments"></textarea>
-        </div>
-        <button id="submit" type="submit">submit</button>
-      </form>
+
+      <hr>
+
+      <div id="feedback">
+        <label for="feedback">Please leave us feedback for site improvement:<label><br>
+          <textarea rows="10" cols="150"></textarea>
+      </div>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+
+
+
+
+
+
   <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
-</div>
 </body>
