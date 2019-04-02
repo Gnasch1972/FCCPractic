@@ -4,6 +4,10 @@ body {
   font-family: 'Playfair Display', serif;
   background-color: cornsilk;
 }
+
+td{
+  width: 60%;
+}
 #title_banner{
   background-color: dimgray;
   margin: auto;
